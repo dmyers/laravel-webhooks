@@ -1,0 +1,27 @@
+{
+    "name": "dmyers/laravel-webhooks",
+    "description": "A simple webhooks package for Laravel 4.",
+    "keywords": ["laravel", "webhooks", "pubsub", "publish", "pubsubhubbub"],
+    "authors": [
+        {
+            "name": "Derek Myers",
+            "email": "arcticpro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Dmyers\\Webhooks": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
